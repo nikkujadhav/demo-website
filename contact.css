@@ -1,0 +1,155 @@
+/* ===== NAVBAR ===== */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 65px;
+    background: #0a2540;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links li a {
+    color: #ddd;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.nav-links li a:hover,
+.nav-links li a.active {
+    color: #ff9800;
+}
+
+/* ===== RESET ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* ===== BODY ===== */
+body {
+    background: #f4f6f8;
+}
+
+/* ===== CONTACT PAGE ===== */
+.contact-page {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.contact-page h1 {
+    font-size: 36px;
+    color: #0a2540;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    color: #555;
+    margin-bottom: 40px;
+}
+
+/* ===== CONTACT CARD ===== */
+.contact-card {
+    background: #ffffff;
+    max-width: 450px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.contact-card h2 {
+    color: #0a2540;
+    margin-bottom: 5px;
+}
+
+.light-text {
+    color: #777;
+    margin-bottom: 20px;
+}
+
+/* ===== FORM ===== */
+.contact-card form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-card input,
+.contact-card textarea {
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.contact-card button {
+    background: #0a2540;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.contact-card button:hover {
+    background: #143d6b;
+}
+
+/* ===== FOOTER ===== */
+.main-footer {
+    background: #0a2540;
+    color: white;
+    padding: 40px 20px 20px;
+}
+
+.footer-container {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.footer-box {
+    flex: 1;
+    min-width: 250px;
+}
+
+.footer-box h3 {
+    margin-bottom: 10px;
+}
+
+.footer-box p,
+.footer-box a {
+    font-size: 14px;
+    color: #ddd;
+    text-decoration: none;
+}
+
+.footer-social {
+    text-align: cente
+.contact-page {
+    padding: 120px 20px 80px; /* top padding increased */
+    text-align: center;
+}
